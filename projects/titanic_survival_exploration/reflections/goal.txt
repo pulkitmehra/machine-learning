@@ -1,0 +1,4 @@
+Goals
+-----
+
+1. To understand decision tree and understanding data features

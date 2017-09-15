@@ -1,0 +1,5 @@
+Challenges
+----------
+
+1. I am new to pandas, so understanding its API/functionality was a Challenge.
+2. Data has Nan values, so cleaning data was a challenge.
