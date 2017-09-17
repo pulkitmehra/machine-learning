@@ -1,0 +1,19 @@
+
+Challenges
+----------
+
+1. I am new to pandas, so understanding its API/functionality was a Challenge.
+2. Data has Nan values, so cleaning data was a challenge.
+
+Problem Challenges
+------------------
+
+ 1. Analyze Age and Cabin column and set all NaN values to -1.
+ 2. Create a try/test.py to do more manipulation on data to find patterns
+ 3. To reach 80%, I saw all the values which are NaN and tried searching patterns into it.
+ 4. Search tried vs.survival_stats(data, outcomes, 'Parch', ["Sex == 'male'","Parch == 1"])
+ 5. Search tried vs.survival_stats(data, outcomes, 'Age', ["Sex == 'male'", "Age < 18"])
+ 6. Search tried vs.survival_stats(data, outcomes, 'Pclass', ["Sex == 'male'","Age >= 10","Age < 18","Pclass == 1"])
+ 7. Search tried vs.survival_stats(data, outcomes, 'Parch', ["Sex == 'male'","Pclass == 3","SibSp == 2","Parch == 1","Age >= 25","Age < 45"])
+ 8. As all females survived, trick was to search pattern in Male above 18 years old
+ 9. Got a breakthrough with Age as NaN(-1) and queries on Embarked port 'C' and 'Q'

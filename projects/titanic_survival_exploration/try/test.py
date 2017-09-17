@@ -81,7 +81,7 @@ for index, passenger in agedata.iterrows():
 - **Embarked**: Port of embarkation of the passenger (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 def predictions_3(data):
-    """ Model with multiple features. Makes a prediction with an accuracy of at least 80%. """
+   Model with multiple features. Makes a prediction with an accuracy of at least 80%.
 
     for index, passenger in data.iterrows():
         sex = passenger['Sex']
